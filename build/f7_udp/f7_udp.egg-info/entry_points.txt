@@ -1,0 +1,15 @@
+[console_scripts]
+4_omni = f7_udp.W4_Omni_Driver:main
+cr24_gui = f7_udp.cr24_gui:main
+cr24_main = f7_udp.cr24_main:main
+cr24_main_apk = f7_udp.cr24_main_unity:main
+cr24_main_manual = f7_udp.cr24_manual:main
+cr24_main_manual2 = f7_udp.cr24_manual2:main
+cr24_manual2_apk = f7_udp.cr24_manual2_unity:main
+cr24_pos = f7_udp.cr24_pos:main
+cr24_test = f7_udp.cr24_test:main
+cr24_wlcam = f7_udp.cr24_yolo_wireless:main
+listener = f7_udp.PS4_listener:main
+setoshio = f7_udp.yolov8_setoshio_pub:main
+setoshio_gui = f7_udp.yolo_setoshio_gui:main
+

@@ -1,0 +1,15 @@
+/home/dev/ros2_ws/install/ldlidar/share/ament_index/resource_index/package_run_dependencies/ldlidar
+/home/dev/ros2_ws/install/ldlidar/share/ament_index/resource_index/parent_prefix_path/ldlidar
+/home/dev/ros2_ws/install/ldlidar/share/ldlidar/environment/ament_prefix_path.sh
+/home/dev/ros2_ws/install/ldlidar/share/ldlidar/environment/ament_prefix_path.dsv
+/home/dev/ros2_ws/install/ldlidar/share/ldlidar/environment/path.sh
+/home/dev/ros2_ws/install/ldlidar/share/ldlidar/environment/path.dsv
+/home/dev/ros2_ws/install/ldlidar/share/ldlidar/local_setup.bash
+/home/dev/ros2_ws/install/ldlidar/share/ldlidar/local_setup.sh
+/home/dev/ros2_ws/install/ldlidar/share/ldlidar/local_setup.zsh
+/home/dev/ros2_ws/install/ldlidar/share/ldlidar/local_setup.dsv
+/home/dev/ros2_ws/install/ldlidar/share/ldlidar/package.dsv
+/home/dev/ros2_ws/install/ldlidar/share/ament_index/resource_index/packages/ldlidar
+/home/dev/ros2_ws/install/ldlidar/share/ldlidar/cmake/ldlidarConfig.cmake
+/home/dev/ros2_ws/install/ldlidar/share/ldlidar/cmake/ldlidarConfig-version.cmake
+/home/dev/ros2_ws/install/ldlidar/share/ldlidar/package.xml

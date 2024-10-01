@@ -1,0 +1,95 @@
+[1.206s] Invoking command in '/home/dev/ros2_ws/src/f7_udp': PYTHONPATH=/home/dev/ros2_ws/build/f7_udp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/f7_udp build --build-base /home/dev/ros2_ws/build/f7_udp/build install --record /home/dev/ros2_ws/build/f7_udp/install.log --single-version-externally-managed install_data
+[1.529s] running egg_info
+[1.530s] creating ../../build/f7_udp/f7_udp.egg-info
+[1.530s] writing ../../build/f7_udp/f7_udp.egg-info/PKG-INFO
+[1.530s] writing dependency_links to ../../build/f7_udp/f7_udp.egg-info/dependency_links.txt
+[1.530s] writing entry points to ../../build/f7_udp/f7_udp.egg-info/entry_points.txt
+[1.530s] writing requirements to ../../build/f7_udp/f7_udp.egg-info/requires.txt
+[1.531s] writing top-level names to ../../build/f7_udp/f7_udp.egg-info/top_level.txt
+[1.531s] writing manifest file '../../build/f7_udp/f7_udp.egg-info/SOURCES.txt'
+[1.534s] reading manifest file '../../build/f7_udp/f7_udp.egg-info/SOURCES.txt'
+[1.534s] adding license file 'LICENSE'
+[1.535s] writing manifest file '../../build/f7_udp/f7_udp.egg-info/SOURCES.txt'
+[1.535s] running build
+[1.535s] running build_py
+[1.535s] creating /home/dev/ros2_ws/build/f7_udp/build
+[1.535s] creating /home/dev/ros2_ws/build/f7_udp/build/lib
+[1.535s] creating /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp
+[1.535s] copying f7_udp/cr24_gui.py -> /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp
+[1.536s] copying f7_udp/W4_Omni_Driver.py -> /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp
+[1.536s] copying f7_udp/cr24_test.py -> /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp
+[1.536s] copying f7_udp/cr24_manual.py -> /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp
+[1.536s] copying f7_udp/cr24_manual2_unity.py -> /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp
+[1.536s] copying f7_udp/f7_eth.py -> /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp
+[1.537s] copying f7_udp/__init__.py -> /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp
+[1.537s] copying f7_udp/cr24_pos.py -> /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp
+[1.537s] copying f7_udp/PS4_listener.py -> /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp
+[1.537s] copying f7_udp/cr24_main_unity.py -> /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp
+[1.537s] copying f7_udp/cr24_yolo_wireless.py -> /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp
+[1.538s] copying f7_udp/setoshio_gui_standalone.py -> /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp
+[1.538s] copying f7_udp/cr24_manual2.py -> /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp
+[1.538s] copying f7_udp/yolov8_setoshio_pub.py -> /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp
+[1.538s] copying f7_udp/Omni_Driver.py -> /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp
+[1.538s] copying f7_udp/cr24_main.py -> /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp
+[1.538s] copying f7_udp/yolo_setoshio_gui.py -> /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp
+[1.539s] running install
+[1.539s] running install_lib
+[1.540s] creating /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp
+[1.540s] copying /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp/cr24_gui.py -> /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp
+[1.540s] copying /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp/W4_Omni_Driver.py -> /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp
+[1.540s] copying /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp/cr24_test.py -> /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp
+[1.541s] copying /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp/cr24_manual.py -> /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp
+[1.541s] copying /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp/cr24_manual2_unity.py -> /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp
+[1.541s] copying /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp/f7_eth.py -> /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp
+[1.541s] copying /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp/__init__.py -> /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp
+[1.541s] copying /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp/cr24_pos.py -> /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp
+[1.541s] copying /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp/PS4_listener.py -> /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp
+[1.541s] copying /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp/cr24_main_unity.py -> /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp
+[1.542s] copying /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp/cr24_yolo_wireless.py -> /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp
+[1.542s] copying /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp/setoshio_gui_standalone.py -> /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp
+[1.542s] copying /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp/cr24_manual2.py -> /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp
+[1.542s] copying /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp/yolov8_setoshio_pub.py -> /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp
+[1.542s] copying /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp/Omni_Driver.py -> /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp
+[1.542s] copying /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp/cr24_main.py -> /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp
+[1.542s] copying /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp/yolo_setoshio_gui.py -> /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp
+[1.543s] byte-compiling /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/cr24_gui.py to cr24_gui.cpython-310.pyc
+[1.545s] byte-compiling /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/W4_Omni_Driver.py to W4_Omni_Driver.cpython-310.pyc
+[1.545s] byte-compiling /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/cr24_test.py to cr24_test.cpython-310.pyc
+[1.546s] byte-compiling /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/cr24_manual.py to cr24_manual.cpython-310.pyc
+[1.547s] byte-compiling /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/cr24_manual2_unity.py to cr24_manual2_unity.cpython-310.pyc
+[1.548s] byte-compiling /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/f7_eth.py to f7_eth.cpython-310.pyc
+[1.548s] byte-compiling /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/__init__.py to __init__.cpython-310.pyc
+[1.549s] byte-compiling /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/cr24_pos.py to cr24_pos.cpython-310.pyc
+[1.550s] byte-compiling /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/PS4_listener.py to PS4_listener.cpython-310.pyc
+[1.550s] byte-compiling /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/cr24_main_unity.py to cr24_main_unity.cpython-310.pyc
+[1.552s] byte-compiling /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/cr24_yolo_wireless.py to cr24_yolo_wireless.cpython-310.pyc
+[1.553s] byte-compiling /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/setoshio_gui_standalone.py to setoshio_gui_standalone.cpython-310.pyc
+[1.554s] byte-compiling /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/cr24_manual2.py to cr24_manual2.cpython-310.pyc
+[1.555s] byte-compiling /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/yolov8_setoshio_pub.py to yolov8_setoshio_pub.cpython-310.pyc
+[1.556s] byte-compiling /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/Omni_Driver.py to Omni_Driver.cpython-310.pyc
+[1.556s] byte-compiling /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/cr24_main.py to cr24_main.cpython-310.pyc
+[1.558s] byte-compiling /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/yolo_setoshio_gui.py to yolo_setoshio_gui.cpython-310.pyc
+[1.558s] running install_data
+[1.558s] creating /home/dev/ros2_ws/install/f7_udp/share/ament_index
+[1.558s] creating /home/dev/ros2_ws/install/f7_udp/share/ament_index/resource_index
+[1.559s] creating /home/dev/ros2_ws/install/f7_udp/share/ament_index/resource_index/packages
+[1.559s] copying resource/f7_udp -> /home/dev/ros2_ws/install/f7_udp/share/ament_index/resource_index/packages
+[1.559s] copying package.xml -> /home/dev/ros2_ws/install/f7_udp/share/f7_udp
+[1.559s] running install_egg_info
+[1.561s] Copying ../../build/f7_udp/f7_udp.egg-info to /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp-0.0.0-py3.10.egg-info
+[1.562s] running install_scripts
+[1.586s] Installing 4_omni script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.587s] Installing cr24_gui script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.587s] Installing cr24_main script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.587s] Installing cr24_main_apk script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.587s] Installing cr24_main_manual script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.588s] Installing cr24_main_manual2 script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.588s] Installing cr24_manual2_apk script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.588s] Installing cr24_pos script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.588s] Installing cr24_test script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.588s] Installing cr24_wlcam script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.588s] Installing listener script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.588s] Installing setoshio script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.588s] Installing setoshio_gui script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.589s] writing list of installed files to '/home/dev/ros2_ws/build/f7_udp/install.log'
+[1.619s] Invoked command in '/home/dev/ros2_ws/src/f7_udp' returned '0': PYTHONPATH=/home/dev/ros2_ws/build/f7_udp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/f7_udp build --build-base /home/dev/ros2_ws/build/f7_udp/build install --record /home/dev/ros2_ws/build/f7_udp/install.log --single-version-externally-managed install_data
