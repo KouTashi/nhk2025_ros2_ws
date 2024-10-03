@@ -1,0 +1,35 @@
+[0.561s] Invoking command in '/home/dev/ros2_ws/src/f7_udp': PYTHONPATH=/home/dev/ros2_ws/build/f7_udp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/f7_udp build --build-base /home/dev/ros2_ws/build/f7_udp/build install --record /home/dev/ros2_ws/build/f7_udp/install.log --single-version-externally-managed install_data
+[0.746s] running egg_info
+[0.746s] writing ../../build/f7_udp/f7_udp.egg-info/PKG-INFO
+[0.746s] writing dependency_links to ../../build/f7_udp/f7_udp.egg-info/dependency_links.txt
+[0.746s] writing entry points to ../../build/f7_udp/f7_udp.egg-info/entry_points.txt
+[0.747s] writing requirements to ../../build/f7_udp/f7_udp.egg-info/requires.txt
+[0.747s] writing top-level names to ../../build/f7_udp/f7_udp.egg-info/top_level.txt
+[0.748s] reading manifest file '../../build/f7_udp/f7_udp.egg-info/SOURCES.txt'
+[0.748s] adding license file 'LICENSE'
+[0.748s] writing manifest file '../../build/f7_udp/f7_udp.egg-info/SOURCES.txt'
+[0.748s] running build
+[0.749s] running build_py
+[0.749s] running install
+[0.749s] running install_lib
+[0.750s] running install_data
+[0.750s] running install_egg_info
+[0.752s] removing '/home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp-0.0.0-py3.10.egg-info' (and everything under it)
+[0.752s] Copying ../../build/f7_udp/f7_udp.egg-info to /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp-0.0.0-py3.10.egg-info
+[0.752s] running install_scripts
+[0.766s] Installing 4_omni script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[0.766s] Installing cr24_gui script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[0.766s] Installing cr24_main script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[0.766s] Installing cr24_main_apk script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[0.766s] Installing cr24_main_manual script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[0.766s] Installing cr24_main_manual2 script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[0.766s] Installing cr24_manual2_apk script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[0.767s] Installing cr24_pos script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[0.767s] Installing cr24_test script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[0.767s] Installing cr24_wlcam script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[0.767s] Installing listener script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[0.767s] Installing nr25_omni script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[0.767s] Installing setoshio script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[0.767s] Installing setoshio_gui script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[0.767s] writing list of installed files to '/home/dev/ros2_ws/build/f7_udp/install.log'
+[0.788s] Invoked command in '/home/dev/ros2_ws/src/f7_udp' returned '0': PYTHONPATH=/home/dev/ros2_ws/build/f7_udp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/f7_udp build --build-base /home/dev/ros2_ws/build/f7_udp/build install --record /home/dev/ros2_ws/build/f7_udp/install.log --single-version-externally-managed install_data

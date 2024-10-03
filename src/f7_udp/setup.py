@@ -33,7 +33,7 @@ setup(
         'cr24_wlcam = f7_udp.cr24_yolo_wireless:main',
         'cr24_main_apk = f7_udp.cr24_main_unity:main',
         'cr24_manual2_apk = f7_udp.cr24_manual2_unity:main',
-        'nr25_omni = NHK2025_Omni_Driver:main',
+        'nr25_omni = f7_udp.NHK2025_Omni_Driver:main',
         ],
     },
 )

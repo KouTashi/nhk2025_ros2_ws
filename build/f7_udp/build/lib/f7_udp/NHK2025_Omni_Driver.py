@@ -145,9 +145,8 @@ class udpsend:
             + ","
             + str(data[8])
         )  # パケットを作成
-        # str_data = (str(data[1])+str(data[2])+str(data[3])+str(data[4])+str(data[5]))
+        
         send_data = str_data.encode("utf-8")  # バイナリに変換
-        # binary = data.to_bytes(4,'big')
 
         self.udpClntSock.sendto(send_data, self.DstAddr)  # 宛先アドレスに送信
 
