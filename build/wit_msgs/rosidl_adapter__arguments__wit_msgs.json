@@ -1,0 +1,6 @@
+{
+  "package_name": "wit_msgs",
+  "non_idl_tuples": [
+    "/home/dev/ros2_ws/src/wit_node/wit_msgs:msg/ImuGpsRaw.msg"
+  ]
+}

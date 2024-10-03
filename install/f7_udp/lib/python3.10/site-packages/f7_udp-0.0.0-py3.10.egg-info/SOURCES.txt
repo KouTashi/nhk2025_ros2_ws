@@ -10,6 +10,7 @@ setup.py
 ../../build/f7_udp/f7_udp.egg-info/requires.txt
 ../../build/f7_udp/f7_udp.egg-info/top_level.txt
 ../../build/f7_udp/f7_udp.egg-info/zip-safe
+f7_udp/NHK2025_Omni_Driver.py
 f7_udp/Omni_Driver.py
 f7_udp/PS4_listener.py
 f7_udp/W4_Omni_Driver.py

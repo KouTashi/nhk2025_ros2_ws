@@ -9,6 +9,7 @@
 /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/PS4_listener.py
 /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/cr24_main_unity.py
 /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/cr24_yolo_wireless.py
+/home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/NHK2025_Omni_Driver.py
 /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/setoshio_gui_standalone.py
 /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/cr24_manual2.py
 /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/yolov8_setoshio_pub.py
@@ -26,6 +27,7 @@
 /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/__pycache__/PS4_listener.cpython-310.pyc
 /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/__pycache__/cr24_main_unity.cpython-310.pyc
 /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/__pycache__/cr24_yolo_wireless.cpython-310.pyc
+/home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/__pycache__/NHK2025_Omni_Driver.cpython-310.pyc
 /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/__pycache__/setoshio_gui_standalone.cpython-310.pyc
 /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/__pycache__/cr24_manual2.cpython-310.pyc
 /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/__pycache__/yolov8_setoshio_pub.cpython-310.pyc
@@ -52,5 +54,6 @@
 /home/dev/ros2_ws/install/f7_udp/lib/f7_udp/cr24_test
 /home/dev/ros2_ws/install/f7_udp/lib/f7_udp/cr24_wlcam
 /home/dev/ros2_ws/install/f7_udp/lib/f7_udp/listener
+/home/dev/ros2_ws/install/f7_udp/lib/f7_udp/nr25_omni
 /home/dev/ros2_ws/install/f7_udp/lib/f7_udp/setoshio
 /home/dev/ros2_ws/install/f7_udp/lib/f7_udp/setoshio_gui

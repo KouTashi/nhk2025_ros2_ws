@@ -10,6 +10,7 @@ cr24_pos = f7_udp.cr24_pos:main
 cr24_test = f7_udp.cr24_test:main
 cr24_wlcam = f7_udp.cr24_yolo_wireless:main
 listener = f7_udp.PS4_listener:main
+nr25_omni = NHK2025_Omni_Driver:main
 setoshio = f7_udp.yolov8_setoshio_pub:main
 setoshio_gui = f7_udp.yolo_setoshio_gui:main
 

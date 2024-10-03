@@ -1,0 +1,4 @@
+source;share/wit_node/local_setup.bash
+source;share/wit_node/local_setup.dsv
+source;share/wit_node/local_setup.sh
+source;share/wit_node/local_setup.zsh

@@ -1,0 +1,59 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wit_msgs/msg/ImuGpsRaw.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module wit_msgs {
+  module msg {
+    struct ImuGpsRaw {
+      std_msgs::msg::Header header;
+
+      double time;
+
+      sequence<double> acc;
+
+      sequence<double> gyro;
+
+      sequence<double> rpy;
+
+      sequence<double> mag;
+
+      @verbatim (language="comment", text=
+        "port state")
+      sequence<uint16> ps;
+
+      double temperature;
+
+      double altitude;
+
+      @verbatim (language="comment", text=
+        "atmosphere pressure")
+      double ap;
+
+      double latitude;
+
+      double longtitude;
+
+      @verbatim (language="comment", text=
+        "gps height")
+      double gpsh;
+
+      @verbatim (language="comment", text=
+        "gps yaw")
+      double gpsy;
+
+      @verbatim (language="comment", text=
+        "gps velocity")
+      double gpsv;
+
+      sequence<double> quarternion;
+
+      @verbatim (language="comment", text=
+        "satelites number")
+      uint8 sn;
+
+      sequence<double> dop;
+    };
+  };
+};

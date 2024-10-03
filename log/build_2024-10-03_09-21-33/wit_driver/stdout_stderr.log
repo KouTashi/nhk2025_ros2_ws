@@ -1,0 +1,89 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (Threads)
+  does not match the name of the calling package (ecl_threads).  This can
+  lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FindThreads.cmake:238 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  /opt/ros/humble/share/ecl_build/cmake/ecl_platform_detection.cmake:225 (include)
+  /opt/ros/humble/share/ecl_threads/cmake/ecl_threads-extras.cmake:4 (ecl_detect_threads)
+  /opt/ros/humble/share/ecl_threads/cmake/ecl_threadsConfig.cmake:41 (include)
+  /opt/ros/humble/share/ecl_devices/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/ecl_devices/cmake/ecl_devicesConfig.cmake:41 (include)
+  /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+  CMakeLists.txt:22 (ament_auto_find_build_dependencies)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found Threads: TRUE  
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/dev/ros2_ws/src/wit_node/wit_driver/include;$<BUILD_INTERFACE:/home/dev/ros2_ws/src/wit_node/wit_driver/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dev/ros2_ws/build/wit_driver
+[ 25%] [32mBuilding CXX object CMakeFiles/wit_driver.dir/src/packet_finder.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wit_driver.dir/src/wit_driver.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/wit_driver.dir/src/data.cpp.o[0m
+[01m[K/home/dev/ros2_ws/src/wit_node/wit_driver/src/packet_finder.cpp:[m[K In member function ‘[01m[Kbool wit::PacketFinderBase::waitForPayloadSize(const unsigned char*, unsigned int)[m[K’:
+[01m[K/home/dev/ros2_ws/src/wit_node/wit_driver/src/packet_finder.cpp:196:17:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kfirst_byte[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  196 |   unsigned char [01;35m[Kfirst_byte[m[K;
+      |                 [01;35m[K^~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library libwit_driver.so[0m
+[100%] Built target wit_driver
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/include/wit_driver/data.hpp
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/include/wit_driver/packet_handler/packet_finder.hpp
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/include/wit_driver/packet_handler/payload_base.hpp
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/include/wit_driver/packet_handler/payload_headers.hpp
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/include/wit_driver/parameter.hpp
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/include/wit_driver/wit_driver.hpp
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/environment/library_path.sh
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/environment/library_path.dsv
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/lib/libwit_driver.so
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/ament_index/resource_index/package_run_dependencies/wit_driver
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/ament_index/resource_index/parent_prefix_path/wit_driver
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/environment/ament_prefix_path.sh
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/environment/ament_prefix_path.dsv
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/environment/path.sh
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/environment/path.dsv
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/local_setup.bash
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/local_setup.sh
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/local_setup.zsh
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/local_setup.dsv
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/package.dsv
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/ament_index/resource_index/packages/wit_driver
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/cmake/wit_driverConfig.cmake
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/cmake/wit_driverConfig-version.cmake
+-- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/package.xml

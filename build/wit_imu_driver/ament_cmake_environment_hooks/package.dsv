@@ -1,0 +1,4 @@
+source;share/wit_imu_driver/local_setup.bash
+source;share/wit_imu_driver/local_setup.dsv
+source;share/wit_imu_driver/local_setup.sh
+source;share/wit_imu_driver/local_setup.zsh

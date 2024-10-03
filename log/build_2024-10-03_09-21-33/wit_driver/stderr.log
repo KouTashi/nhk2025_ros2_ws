@@ -1,0 +1,20 @@
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (Threads)
+  does not match the name of the calling package (ecl_threads).  This can
+  lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FindThreads.cmake:238 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  /opt/ros/humble/share/ecl_build/cmake/ecl_platform_detection.cmake:225 (include)
+  /opt/ros/humble/share/ecl_threads/cmake/ecl_threads-extras.cmake:4 (ecl_detect_threads)
+  /opt/ros/humble/share/ecl_threads/cmake/ecl_threadsConfig.cmake:41 (include)
+  /opt/ros/humble/share/ecl_devices/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/ecl_devices/cmake/ecl_devicesConfig.cmake:41 (include)
+  /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+  CMakeLists.txt:22 (ament_auto_find_build_dependencies)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/home/dev/ros2_ws/src/wit_node/wit_driver/src/packet_finder.cpp:[m[K In member function ‘[01m[Kbool wit::PacketFinderBase::waitForPayloadSize(const unsigned char*, unsigned int)[m[K’:
+[01m[K/home/dev/ros2_ws/src/wit_node/wit_driver/src/packet_finder.cpp:196:17:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kfirst_byte[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  196 |   unsigned char [01;35m[Kfirst_byte[m[K;
+      |                 [01;35m[K^~~~~~~~~~[m[K

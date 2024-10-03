@@ -1,0 +1,2 @@
+source;share/wit_imu_driver/environment/ament_prefix_path.sh
+source;share/wit_imu_driver/environment/path.sh

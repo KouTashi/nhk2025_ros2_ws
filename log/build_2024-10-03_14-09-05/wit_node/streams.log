@@ -1,0 +1,68 @@
+[0.014s] Invoking command in '/home/dev/ros2_ws/build/wit_node': CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/wit_msgs:/home/dev/ros2_ws/install/wit_driver:/home/dev/ros2_ws/install/wit_node:/home/dev/ros2_ws/install/wit_imu_driver:/home/dev/ros2_ws/install/turtlebot3:/home/dev/ros2_ws/install/turtlebot3_bringup:/home/dev/ros2_ws/install/turtlebot3_node:/home/dev/ros2_ws/install/turtlebot3_navigation2:/home/dev/ros2_ws/install/turtlebot3_description:/home/dev/ros2_ws/install/turtlebot3_cartographer:/home/dev/ros2_ws/install/ldlidar:/home/dev/ros2_ws/install/ldlidar_node:/home/dev/ros2_ws/install/ldlidar_component:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble LD_LIBRARY_PATH=/home/dev/ros2_ws/install/wit_msgs/lib:/home/dev/ros2_ws/install/wit_driver/lib:/home/dev/ros2_ws/install/wit_node/lib:/home/dev/ros2_ws/install/ldlidar_component/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/dev/ros2_ws/src/wit_node/wit_node -DCMAKE_INSTALL_PREFIX=/home/dev/ros2_ws/install/wit_node
+[0.024s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.121s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.200s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.203s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.209s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.219s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.231s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.265s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.267s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.365s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.473s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.475s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.541s] -- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+[0.572s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.579s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.580s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.580s] -- Configured cppcheck include dirs: /home/dev/ros2_ws/src/wit_node/wit_node/include
+[0.580s] -- Configured cppcheck exclude dirs and/or files: 
+[0.581s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.581s] -- Configured cpplint exclude dirs and/or files: 
+[0.581s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.581s] -- Added test 'lint_cmake' to check CMake code style
+[0.581s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.582s] -- Added test 'uncrustify' to check C / C++ code style
+[0.582s] -- Configured uncrustify additional arguments: 
+[0.582s] -- Added test 'xmllint' to check XML markup files
+[0.586s] -- Configuring done
+[0.609s] -- Generating done
+[0.611s] -- Build files have been written to: /home/dev/ros2_ws/build/wit_node
+[0.619s] Invoked command in '/home/dev/ros2_ws/build/wit_node' returned '0': CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/wit_msgs:/home/dev/ros2_ws/install/wit_driver:/home/dev/ros2_ws/install/wit_node:/home/dev/ros2_ws/install/wit_imu_driver:/home/dev/ros2_ws/install/turtlebot3:/home/dev/ros2_ws/install/turtlebot3_bringup:/home/dev/ros2_ws/install/turtlebot3_node:/home/dev/ros2_ws/install/turtlebot3_navigation2:/home/dev/ros2_ws/install/turtlebot3_description:/home/dev/ros2_ws/install/turtlebot3_cartographer:/home/dev/ros2_ws/install/ldlidar:/home/dev/ros2_ws/install/ldlidar_node:/home/dev/ros2_ws/install/ldlidar_component:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble LD_LIBRARY_PATH=/home/dev/ros2_ws/install/wit_msgs/lib:/home/dev/ros2_ws/install/wit_driver/lib:/home/dev/ros2_ws/install/wit_node/lib:/home/dev/ros2_ws/install/ldlidar_component/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/dev/ros2_ws/src/wit_node/wit_node -DCMAKE_INSTALL_PREFIX=/home/dev/ros2_ws/install/wit_node
+[0.621s] Invoking command in '/home/dev/ros2_ws/build/wit_node': CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/wit_msgs:/home/dev/ros2_ws/install/wit_driver:/home/dev/ros2_ws/install/wit_node:/home/dev/ros2_ws/install/wit_imu_driver:/home/dev/ros2_ws/install/turtlebot3:/home/dev/ros2_ws/install/turtlebot3_bringup:/home/dev/ros2_ws/install/turtlebot3_node:/home/dev/ros2_ws/install/turtlebot3_navigation2:/home/dev/ros2_ws/install/turtlebot3_description:/home/dev/ros2_ws/install/turtlebot3_cartographer:/home/dev/ros2_ws/install/ldlidar:/home/dev/ros2_ws/install/ldlidar_node:/home/dev/ros2_ws/install/ldlidar_component:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble LD_LIBRARY_PATH=/home/dev/ros2_ws/install/wit_msgs/lib:/home/dev/ros2_ws/install/wit_driver/lib:/home/dev/ros2_ws/install/wit_node/lib:/home/dev/ros2_ws/install/ldlidar_component/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dev/ros2_ws/build/wit_node -- -j12 -l12
+[0.666s] [35m[1mConsolidate compiler generated dependencies of target wit_node[0m
+[0.666s] [35m[1mConsolidate compiler generated dependencies of target wit[0m
+[0.681s] [ 50%] Built target wit_node
+[0.689s] [100%] Built target wit
+[0.701s] Invoked command in '/home/dev/ros2_ws/build/wit_node' returned '0': CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/wit_msgs:/home/dev/ros2_ws/install/wit_driver:/home/dev/ros2_ws/install/wit_node:/home/dev/ros2_ws/install/wit_imu_driver:/home/dev/ros2_ws/install/turtlebot3:/home/dev/ros2_ws/install/turtlebot3_bringup:/home/dev/ros2_ws/install/turtlebot3_node:/home/dev/ros2_ws/install/turtlebot3_navigation2:/home/dev/ros2_ws/install/turtlebot3_description:/home/dev/ros2_ws/install/turtlebot3_cartographer:/home/dev/ros2_ws/install/ldlidar:/home/dev/ros2_ws/install/ldlidar_node:/home/dev/ros2_ws/install/ldlidar_component:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble LD_LIBRARY_PATH=/home/dev/ros2_ws/install/wit_msgs/lib:/home/dev/ros2_ws/install/wit_driver/lib:/home/dev/ros2_ws/install/wit_node/lib:/home/dev/ros2_ws/install/ldlidar_component/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dev/ros2_ws/build/wit_node -- -j12 -l12
+[0.731s] Invoking command in '/home/dev/ros2_ws/build/wit_node': CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/wit_msgs:/home/dev/ros2_ws/install/wit_driver:/home/dev/ros2_ws/install/wit_node:/home/dev/ros2_ws/install/wit_imu_driver:/home/dev/ros2_ws/install/turtlebot3:/home/dev/ros2_ws/install/turtlebot3_bringup:/home/dev/ros2_ws/install/turtlebot3_node:/home/dev/ros2_ws/install/turtlebot3_navigation2:/home/dev/ros2_ws/install/turtlebot3_description:/home/dev/ros2_ws/install/turtlebot3_cartographer:/home/dev/ros2_ws/install/ldlidar:/home/dev/ros2_ws/install/ldlidar_node:/home/dev/ros2_ws/install/ldlidar_component:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble LD_LIBRARY_PATH=/home/dev/ros2_ws/install/wit_msgs/lib:/home/dev/ros2_ws/install/wit_driver/lib:/home/dev/ros2_ws/install/wit_node/lib:/home/dev/ros2_ws/install/ldlidar_component/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dev/ros2_ws/build/wit_node
+[0.738s] -- Install configuration: ""
+[0.739s] -- Execute custom install script
+[0.739s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/lib/wit_node/wit_node
+[0.739s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/include/wit_node/wit_node.hpp
+[0.739s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/environment/library_path.sh
+[0.739s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/environment/library_path.dsv
+[0.739s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/lib/libwit.so
+[0.739s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/launch/wit.launch.py
+[0.739s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/launch/wit_visualize.launch.py
+[0.740s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/rviz2/wit.rviz
+[0.740s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/ament_index/resource_index/package_run_dependencies/wit_node
+[0.740s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/ament_index/resource_index/parent_prefix_path/wit_node
+[0.740s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/environment/ament_prefix_path.sh
+[0.740s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/environment/ament_prefix_path.dsv
+[0.740s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/environment/path.sh
+[0.740s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/environment/path.dsv
+[0.740s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/local_setup.bash
+[0.740s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/local_setup.sh
+[0.740s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/local_setup.zsh
+[0.740s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/local_setup.dsv
+[0.740s] -- Symlinking: /home/dev/ros2_ws/install/wit_node/share/wit_node/package.dsv
+[0.747s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/ament_index/resource_index/packages/wit_node
+[0.748s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/ament_index/resource_index/rclcpp_components/wit_node
+[0.748s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.748s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.748s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/cmake/ament_cmake_export_libraries-extras.cmake
+[0.748s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/cmake/wit_nodeConfig.cmake
+[0.748s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/cmake/wit_nodeConfig-version.cmake
+[0.748s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/package.xml
+[0.750s] Invoked command in '/home/dev/ros2_ws/build/wit_node' returned '0': CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/wit_msgs:/home/dev/ros2_ws/install/wit_driver:/home/dev/ros2_ws/install/wit_node:/home/dev/ros2_ws/install/wit_imu_driver:/home/dev/ros2_ws/install/turtlebot3:/home/dev/ros2_ws/install/turtlebot3_bringup:/home/dev/ros2_ws/install/turtlebot3_node:/home/dev/ros2_ws/install/turtlebot3_navigation2:/home/dev/ros2_ws/install/turtlebot3_description:/home/dev/ros2_ws/install/turtlebot3_cartographer:/home/dev/ros2_ws/install/ldlidar:/home/dev/ros2_ws/install/ldlidar_node:/home/dev/ros2_ws/install/ldlidar_component:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble LD_LIBRARY_PATH=/home/dev/ros2_ws/install/wit_msgs/lib:/home/dev/ros2_ws/install/wit_driver/lib:/home/dev/ros2_ws/install/wit_node/lib:/home/dev/ros2_ws/install/ldlidar_component/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dev/ros2_ws/build/wit_node

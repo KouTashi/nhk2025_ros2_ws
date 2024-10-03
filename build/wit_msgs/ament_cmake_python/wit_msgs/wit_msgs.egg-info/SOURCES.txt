@@ -1,0 +1,8 @@
+setup.py
+wit_msgs/__init__.py
+wit_msgs.egg-info/PKG-INFO
+wit_msgs.egg-info/SOURCES.txt
+wit_msgs.egg-info/dependency_links.txt
+wit_msgs.egg-info/top_level.txt
+wit_msgs/msg/__init__.py
+wit_msgs/msg/_imu_gps_raw.py

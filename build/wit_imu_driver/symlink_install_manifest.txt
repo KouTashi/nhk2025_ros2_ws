@@ -1,0 +1,17 @@
+/home/dev/ros2_ws/install/wit_imu_driver/lib/wit_imu_driver/wit_imu_node
+/home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/launch/wit901.launch.py
+/home/dev/ros2_ws/install/wit_imu_driver/share/ament_index/resource_index/package_run_dependencies/wit_imu_driver
+/home/dev/ros2_ws/install/wit_imu_driver/share/ament_index/resource_index/parent_prefix_path/wit_imu_driver
+/home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/environment/ament_prefix_path.sh
+/home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/environment/ament_prefix_path.dsv
+/home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/environment/path.sh
+/home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/environment/path.dsv
+/home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/local_setup.bash
+/home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/local_setup.sh
+/home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/local_setup.zsh
+/home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/local_setup.dsv
+/home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/package.dsv
+/home/dev/ros2_ws/install/wit_imu_driver/share/ament_index/resource_index/packages/wit_imu_driver
+/home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/cmake/wit_imu_driverConfig.cmake
+/home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/cmake/wit_imu_driverConfig-version.cmake
+/home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/package.xml

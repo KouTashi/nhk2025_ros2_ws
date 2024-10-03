@@ -1,0 +1,97 @@
+[0.267s] Invoking command in '/home/dev/ros2_ws/build/wit_imu_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble /usr/bin/cmake /home/dev/ros2_ws/src/ros_wit_imu_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/ros2_ws/install/wit_imu_driver
+[0.312s] -- The C compiler identification is GNU 11.4.0
+[0.364s] -- The CXX compiler identification is GNU 11.4.0
+[0.370s] -- Detecting C compiler ABI info
+[0.426s] -- Detecting C compiler ABI info - done
+[0.430s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.430s] -- Detecting C compile features
+[0.430s] -- Detecting C compile features - done
+[0.432s] -- Detecting CXX compiler ABI info
+[0.493s] -- Detecting CXX compiler ABI info - done
+[0.498s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.498s] -- Detecting CXX compile features
+[0.499s] -- Detecting CXX compile features - done
+[0.501s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.626s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.668s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.698s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.751s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.759s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.767s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.783s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.804s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.837s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.839s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.913s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.939s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.975s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.982s] -- Looking for pthread.h
+[1.041s] -- Looking for pthread.h - found
+[1.041s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.101s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.102s] -- Found Threads: TRUE  
+[1.138s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.159s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.168s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[1.177s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.244s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.245s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.246s] -- Configured cppcheck include dirs: /home/dev/ros2_ws/src/ros_wit_imu_node/include
+[1.246s] -- Configured cppcheck exclude dirs and/or files: 
+[1.247s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.247s] -- Configured cpplint exclude dirs and/or files: 
+[1.247s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.248s] -- Added test 'lint_cmake' to check CMake code style
+[1.250s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.250s] -- Added test 'uncrustify' to check C / C++ code style
+[1.250s] -- Configured uncrustify additional arguments: 
+[1.250s] -- Added test 'xmllint' to check XML markup files
+[1.251s] -- Configuring done
+[1.257s] -- Generating done
+[1.258s] -- Build files have been written to: /home/dev/ros2_ws/build/wit_imu_driver
+[1.264s] Invoked command in '/home/dev/ros2_ws/build/wit_imu_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble /usr/bin/cmake /home/dev/ros2_ws/src/ros_wit_imu_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/ros2_ws/install/wit_imu_driver
+[1.266s] Invoking command in '/home/dev/ros2_ws/build/wit_imu_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/build/wit_imu_driver -- -j12 -l12
+[1.311s] [ 33%] [32mBuilding CXX object CMakeFiles/wit_imu_node.dir/src/wit_imu_driver_node.cpp.o[0m
+[1.311s] [ 66%] [32mBuilding CXX object CMakeFiles/wit_imu_node.dir/src/wt901c.cpp.o[0m
+[2.687s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[2.687s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[2.687s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[2.687s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[2.687s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[2.687s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[2.687s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[2.687s]                  from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+[2.687s]                  from [01m[K/usr/include/boost/date_time/posix_time/posix_time_types.hpp:10[m[K,
+[2.687s]                  from [01m[K/usr/include/boost/asio/time_traits.hpp:23[m[K,
+[2.687s]                  from [01m[K/usr/include/boost/asio/detail/timer_queue_ptime.hpp:22[m[K,
+[2.687s]                  from [01m[K/usr/include/boost/asio/detail/deadline_timer_service.hpp:29[m[K,
+[2.687s]                  from [01m[K/usr/include/boost/asio/basic_deadline_timer.hpp:25[m[K,
+[2.687s]                  from [01m[K/usr/include/boost/asio.hpp:25[m[K,
+[2.687s]                  from [01m[K/home/dev/ros2_ws/src/ros_wit_imu_node/src/wit_imu_driver_node.cpp:18[m[K:
+[2.688s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[2.688s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[2.688s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.539s] [100%] [32m[1mLinking CXX executable wit_imu_node[0m
+[6.764s] [100%] Built target wit_imu_node
+[6.773s] Invoked command in '/home/dev/ros2_ws/build/wit_imu_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/build/wit_imu_driver -- -j12 -l12
+[6.800s] Invoking command in '/home/dev/ros2_ws/build/wit_imu_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble /usr/bin/cmake --install /home/dev/ros2_ws/build/wit_imu_driver
+[6.807s] -- Install configuration: ""
+[6.807s] -- Execute custom install script
+[6.808s] -- Symlinking: /home/dev/ros2_ws/install/wit_imu_driver/lib/wit_imu_driver/wit_imu_node
+[6.816s] -- Symlinking: /home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/launch/wit901.launch.py
+[6.822s] -- Symlinking: /home/dev/ros2_ws/install/wit_imu_driver/share/ament_index/resource_index/package_run_dependencies/wit_imu_driver
+[6.832s] -- Symlinking: /home/dev/ros2_ws/install/wit_imu_driver/share/ament_index/resource_index/parent_prefix_path/wit_imu_driver
+[6.838s] -- Symlinking: /home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/environment/ament_prefix_path.sh
+[6.844s] -- Symlinking: /home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/environment/ament_prefix_path.dsv
+[6.852s] -- Symlinking: /home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/environment/path.sh
+[6.858s] -- Symlinking: /home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/environment/path.dsv
+[6.866s] -- Symlinking: /home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/local_setup.bash
+[6.872s] -- Symlinking: /home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/local_setup.sh
+[6.880s] -- Symlinking: /home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/local_setup.zsh
+[6.889s] -- Symlinking: /home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/local_setup.dsv
+[6.895s] -- Symlinking: /home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/package.dsv
+[6.904s] -- Symlinking: /home/dev/ros2_ws/install/wit_imu_driver/share/ament_index/resource_index/packages/wit_imu_driver
+[6.912s] -- Symlinking: /home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/cmake/wit_imu_driverConfig.cmake
+[6.919s] -- Symlinking: /home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/cmake/wit_imu_driverConfig-version.cmake
+[6.926s] -- Symlinking: /home/dev/ros2_ws/install/wit_imu_driver/share/wit_imu_driver/package.xml
+[6.934s] Invoked command in '/home/dev/ros2_ws/build/wit_imu_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble /usr/bin/cmake --install /home/dev/ros2_ws/build/wit_imu_driver

@@ -1,0 +1,95 @@
+[0.015s] Invoking command in '/home/dev/ros2_ws/build/wit_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble /usr/bin/cmake /home/dev/ros2_ws/src/wit_node/wit_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/ros2_ws/install/wit_driver
+[0.116s] -- The C compiler identification is GNU 11.4.0
+[0.199s] -- The CXX compiler identification is GNU 11.4.0
+[0.206s] -- Detecting C compiler ABI info
+[0.268s] -- Detecting C compiler ABI info - done
+[0.275s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.275s] -- Detecting C compile features
+[0.275s] -- Detecting C compile features - done
+[0.277s] -- Detecting CXX compiler ABI info
+[0.348s] -- Detecting CXX compiler ABI info - done
+[0.355s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.356s] -- Detecting CXX compile features
+[0.356s] -- Detecting CXX compile features - done
+[0.359s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.488s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.551s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.676s] -- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+[0.681s] -- Looking for pthread.h
+[0.744s] -- Looking for pthread.h - found
+[0.744s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.801s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.802s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.802s]   The package name passed to `find_package_handle_standard_args` (Threads)
+[0.802s]   does not match the name of the calling package (ecl_threads).  This can
+[0.802s]   lead to problems in calling code that expects `find_package` result
+[0.802s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[0.802s] Call Stack (most recent call first):
+[0.802s]   /usr/share/cmake-3.22/Modules/FindThreads.cmake:238 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+[0.802s]   /opt/ros/humble/share/ecl_build/cmake/ecl_platform_detection.cmake:225 (include)
+[0.802s]   /opt/ros/humble/share/ecl_threads/cmake/ecl_threads-extras.cmake:4 (ecl_detect_threads)
+[0.802s]   /opt/ros/humble/share/ecl_threads/cmake/ecl_threadsConfig.cmake:41 (include)
+[0.802s]   /opt/ros/humble/share/ecl_devices/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.802s]   /opt/ros/humble/share/ecl_devices/cmake/ecl_devicesConfig.cmake:41 (include)
+[0.802s]   /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[0.802s]   CMakeLists.txt:22 (ament_auto_find_build_dependencies)
+[0.802s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.802s] [0m
+[0.802s] -- Found Threads: TRUE  
+[0.867s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.894s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.896s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.896s] -- Configured cppcheck include dirs: /home/dev/ros2_ws/src/wit_node/wit_driver/include;$<BUILD_INTERFACE:/home/dev/ros2_ws/src/wit_node/wit_driver/include>
+[0.896s] -- Configured cppcheck exclude dirs and/or files: 
+[0.897s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.897s] -- Configured cpplint exclude dirs and/or files: 
+[0.898s] -- Added test 'lint_cmake' to check CMake code style
+[0.899s] -- Added test 'uncrustify' to check C / C++ code style
+[0.899s] -- Configured uncrustify additional arguments: 
+[0.900s] -- Added test 'xmllint' to check XML markup files
+[0.901s] -- Configuring done
+[0.904s] -- Generating done
+[0.905s] -- Build files have been written to: /home/dev/ros2_ws/build/wit_driver
+[0.909s] Invoked command in '/home/dev/ros2_ws/build/wit_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble /usr/bin/cmake /home/dev/ros2_ws/src/wit_node/wit_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dev/ros2_ws/install/wit_driver
+[0.910s] Invoking command in '/home/dev/ros2_ws/build/wit_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/build/wit_driver -- -j12 -l12
+[0.948s] [ 25%] [32mBuilding CXX object CMakeFiles/wit_driver.dir/src/packet_finder.cpp.o[0m
+[0.949s] [ 50%] [32mBuilding CXX object CMakeFiles/wit_driver.dir/src/wit_driver.cpp.o[0m
+[0.949s] [ 75%] [32mBuilding CXX object CMakeFiles/wit_driver.dir/src/data.cpp.o[0m
+[1.420s] [01m[K/home/dev/ros2_ws/src/wit_node/wit_driver/src/packet_finder.cpp:[m[K In member function ‘[01m[Kbool wit::PacketFinderBase::waitForPayloadSize(const unsigned char*, unsigned int)[m[K’:
+[1.420s] [01m[K/home/dev/ros2_ws/src/wit_node/wit_driver/src/packet_finder.cpp:196:17:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kfirst_byte[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[1.420s]   196 |   unsigned char [01;35m[Kfirst_byte[m[K;
+[1.420s]       |                 [01;35m[K^~~~~~~~~~[m[K
+[3.106s] [100%] [32m[1mLinking CXX shared library libwit_driver.so[0m
+[3.181s] [100%] Built target wit_driver
+[3.191s] Invoked command in '/home/dev/ros2_ws/build/wit_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/build/wit_driver -- -j12 -l12
+[3.217s] Invoking command in '/home/dev/ros2_ws/build/wit_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble /usr/bin/cmake --install /home/dev/ros2_ws/build/wit_driver
+[3.224s] -- Install configuration: ""
+[3.224s] -- Execute custom install script
+[3.225s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/include/wit_driver/data.hpp
+[3.231s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/include/wit_driver/packet_handler/packet_finder.hpp
+[3.240s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/include/wit_driver/packet_handler/payload_base.hpp
+[3.249s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/include/wit_driver/packet_handler/payload_headers.hpp
+[3.256s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/include/wit_driver/parameter.hpp
+[3.262s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/include/wit_driver/wit_driver.hpp
+[3.270s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/environment/library_path.sh
+[3.279s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/environment/library_path.dsv
+[3.284s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/lib/libwit_driver.so
+[3.293s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/ament_index/resource_index/package_run_dependencies/wit_driver
+[3.301s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/ament_index/resource_index/parent_prefix_path/wit_driver
+[3.310s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/environment/ament_prefix_path.sh
+[3.320s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/environment/ament_prefix_path.dsv
+[3.325s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/environment/path.sh
+[3.334s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/environment/path.dsv
+[3.340s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/local_setup.bash
+[3.345s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/local_setup.sh
+[3.353s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/local_setup.zsh
+[3.358s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/local_setup.dsv
+[3.367s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/package.dsv
+[3.374s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/ament_index/resource_index/packages/wit_driver
+[3.384s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.390s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.395s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[3.402s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/cmake/wit_driverConfig.cmake
+[3.411s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/cmake/wit_driverConfig-version.cmake
+[3.420s] -- Symlinking: /home/dev/ros2_ws/install/wit_driver/share/wit_driver/package.xml
+[3.430s] Invoked command in '/home/dev/ros2_ws/build/wit_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble /usr/bin/cmake --install /home/dev/ros2_ws/build/wit_driver

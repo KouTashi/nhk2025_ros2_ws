@@ -1,0 +1,68 @@
+[0.012s] Invoking command in '/home/dev/ros2_ws/build/wit_node': AMENT_PREFIX_PATH=/home/dev/ros2_ws/install/wit_msgs:/home/dev/ros2_ws/install/wit_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/wit_msgs:/home/dev/ros2_ws/install/wit_driver:/home/dev/ros2_ws/install/turtlebot3:/home/dev/ros2_ws/install/turtlebot3_bringup:/home/dev/ros2_ws/install/turtlebot3_node:/home/dev/ros2_ws/install/turtlebot3_navigation2:/home/dev/ros2_ws/install/turtlebot3_description:/home/dev/ros2_ws/install/turtlebot3_cartographer:/home/dev/ros2_ws/install/ldlidar:/home/dev/ros2_ws/install/ldlidar_node:/home/dev/ros2_ws/install/ldlidar_component:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble LD_LIBRARY_PATH=/home/dev/ros2_ws/install/wit_msgs/lib:/home/dev/ros2_ws/install/wit_driver/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dev/ros2_ws/src/wit_node/wit_node -DCMAKE_INSTALL_PREFIX=/home/dev/ros2_ws/install/wit_node
+[0.019s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.113s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.182s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.184s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.188s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.193s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.201s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.221s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.222s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.300s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.362s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.363s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.421s] -- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+[0.447s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.452s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.453s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.453s] -- Configured cppcheck include dirs: /home/dev/ros2_ws/src/wit_node/wit_node/include
+[0.453s] -- Configured cppcheck exclude dirs and/or files: 
+[0.454s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.454s] -- Configured cpplint exclude dirs and/or files: 
+[0.454s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.454s] -- Added test 'lint_cmake' to check CMake code style
+[0.454s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.454s] -- Added test 'uncrustify' to check C / C++ code style
+[0.455s] -- Configured uncrustify additional arguments: 
+[0.455s] -- Added test 'xmllint' to check XML markup files
+[0.456s] -- Configuring done
+[0.467s] -- Generating done
+[0.468s] -- Build files have been written to: /home/dev/ros2_ws/build/wit_node
+[0.476s] Invoked command in '/home/dev/ros2_ws/build/wit_node' returned '0': AMENT_PREFIX_PATH=/home/dev/ros2_ws/install/wit_msgs:/home/dev/ros2_ws/install/wit_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/wit_msgs:/home/dev/ros2_ws/install/wit_driver:/home/dev/ros2_ws/install/turtlebot3:/home/dev/ros2_ws/install/turtlebot3_bringup:/home/dev/ros2_ws/install/turtlebot3_node:/home/dev/ros2_ws/install/turtlebot3_navigation2:/home/dev/ros2_ws/install/turtlebot3_description:/home/dev/ros2_ws/install/turtlebot3_cartographer:/home/dev/ros2_ws/install/ldlidar:/home/dev/ros2_ws/install/ldlidar_node:/home/dev/ros2_ws/install/ldlidar_component:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble LD_LIBRARY_PATH=/home/dev/ros2_ws/install/wit_msgs/lib:/home/dev/ros2_ws/install/wit_driver/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dev/ros2_ws/src/wit_node/wit_node -DCMAKE_INSTALL_PREFIX=/home/dev/ros2_ws/install/wit_node
+[0.477s] Invoking command in '/home/dev/ros2_ws/build/wit_node': AMENT_PREFIX_PATH=/home/dev/ros2_ws/install/wit_msgs:/home/dev/ros2_ws/install/wit_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/wit_msgs:/home/dev/ros2_ws/install/wit_driver:/home/dev/ros2_ws/install/turtlebot3:/home/dev/ros2_ws/install/turtlebot3_bringup:/home/dev/ros2_ws/install/turtlebot3_node:/home/dev/ros2_ws/install/turtlebot3_navigation2:/home/dev/ros2_ws/install/turtlebot3_description:/home/dev/ros2_ws/install/turtlebot3_cartographer:/home/dev/ros2_ws/install/ldlidar:/home/dev/ros2_ws/install/ldlidar_node:/home/dev/ros2_ws/install/ldlidar_component:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble LD_LIBRARY_PATH=/home/dev/ros2_ws/install/wit_msgs/lib:/home/dev/ros2_ws/install/wit_driver/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dev/ros2_ws/build/wit_node -- -j12 -l12
+[0.513s] [35m[1mConsolidate compiler generated dependencies of target wit_node[0m
+[0.513s] [35m[1mConsolidate compiler generated dependencies of target wit[0m
+[0.526s] [ 50%] Built target wit_node
+[0.527s] [100%] Built target wit
+[0.535s] Invoked command in '/home/dev/ros2_ws/build/wit_node' returned '0': AMENT_PREFIX_PATH=/home/dev/ros2_ws/install/wit_msgs:/home/dev/ros2_ws/install/wit_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/wit_msgs:/home/dev/ros2_ws/install/wit_driver:/home/dev/ros2_ws/install/turtlebot3:/home/dev/ros2_ws/install/turtlebot3_bringup:/home/dev/ros2_ws/install/turtlebot3_node:/home/dev/ros2_ws/install/turtlebot3_navigation2:/home/dev/ros2_ws/install/turtlebot3_description:/home/dev/ros2_ws/install/turtlebot3_cartographer:/home/dev/ros2_ws/install/ldlidar:/home/dev/ros2_ws/install/ldlidar_node:/home/dev/ros2_ws/install/ldlidar_component:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble LD_LIBRARY_PATH=/home/dev/ros2_ws/install/wit_msgs/lib:/home/dev/ros2_ws/install/wit_driver/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dev/ros2_ws/build/wit_node -- -j12 -l12
+[0.561s] Invoking command in '/home/dev/ros2_ws/build/wit_node': AMENT_PREFIX_PATH=/home/dev/ros2_ws/install/wit_msgs:/home/dev/ros2_ws/install/wit_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/wit_msgs:/home/dev/ros2_ws/install/wit_driver:/home/dev/ros2_ws/install/turtlebot3:/home/dev/ros2_ws/install/turtlebot3_bringup:/home/dev/ros2_ws/install/turtlebot3_node:/home/dev/ros2_ws/install/turtlebot3_navigation2:/home/dev/ros2_ws/install/turtlebot3_description:/home/dev/ros2_ws/install/turtlebot3_cartographer:/home/dev/ros2_ws/install/ldlidar:/home/dev/ros2_ws/install/ldlidar_node:/home/dev/ros2_ws/install/ldlidar_component:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble LD_LIBRARY_PATH=/home/dev/ros2_ws/install/wit_msgs/lib:/home/dev/ros2_ws/install/wit_driver/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dev/ros2_ws/build/wit_node
+[0.567s] -- Install configuration: ""
+[0.567s] -- Execute custom install script
+[0.568s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/lib/wit_node/wit_node
+[0.568s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/include/wit_node/wit_node.hpp
+[0.568s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/environment/library_path.sh
+[0.568s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/environment/library_path.dsv
+[0.568s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/lib/libwit.so
+[0.568s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/launch/wit.launch.py
+[0.568s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/launch/wit_visualize.launch.py
+[0.569s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/rviz2/wit.rviz
+[0.569s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/ament_index/resource_index/package_run_dependencies/wit_node
+[0.569s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/ament_index/resource_index/parent_prefix_path/wit_node
+[0.569s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/environment/ament_prefix_path.sh
+[0.569s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/environment/ament_prefix_path.dsv
+[0.569s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/environment/path.sh
+[0.569s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/environment/path.dsv
+[0.569s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/local_setup.bash
+[0.569s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/local_setup.sh
+[0.569s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/local_setup.zsh
+[0.570s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/local_setup.dsv
+[0.570s] -- Symlinking: /home/dev/ros2_ws/install/wit_node/share/wit_node/package.dsv
+[0.575s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/ament_index/resource_index/packages/wit_node
+[0.575s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/ament_index/resource_index/rclcpp_components/wit_node
+[0.576s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.576s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.576s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/cmake/ament_cmake_export_libraries-extras.cmake
+[0.576s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/cmake/wit_nodeConfig.cmake
+[0.576s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/cmake/wit_nodeConfig-version.cmake
+[0.576s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_node/share/wit_node/package.xml
+[0.577s] Invoked command in '/home/dev/ros2_ws/build/wit_node' returned '0': AMENT_PREFIX_PATH=/home/dev/ros2_ws/install/wit_msgs:/home/dev/ros2_ws/install/wit_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ros2_ws/install/wit_msgs:/home/dev/ros2_ws/install/wit_driver:/home/dev/ros2_ws/install/turtlebot3:/home/dev/ros2_ws/install/turtlebot3_bringup:/home/dev/ros2_ws/install/turtlebot3_node:/home/dev/ros2_ws/install/turtlebot3_navigation2:/home/dev/ros2_ws/install/turtlebot3_description:/home/dev/ros2_ws/install/turtlebot3_cartographer:/home/dev/ros2_ws/install/ldlidar:/home/dev/ros2_ws/install/ldlidar_node:/home/dev/ros2_ws/install/ldlidar_component:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble LD_LIBRARY_PATH=/home/dev/ros2_ws/install/wit_msgs/lib:/home/dev/ros2_ws/install/wit_driver/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dev/ros2_ws/build/wit_node
