@@ -1,0 +1,28 @@
+running develop
+running egg_info
+writing f7_udp.egg-info/PKG-INFO
+writing dependency_links to f7_udp.egg-info/dependency_links.txt
+writing entry points to f7_udp.egg-info/entry_points.txt
+writing requirements to f7_udp.egg-info/requires.txt
+writing top-level names to f7_udp.egg-info/top_level.txt
+reading manifest file 'f7_udp.egg-info/SOURCES.txt'
+writing manifest file 'f7_udp.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7-udp.egg-link (link to .)
+Installing 4_omni script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+Installing cr24_gui script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+Installing cr24_main script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+Installing cr24_main_apk script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+Installing cr24_main_manual script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+Installing cr24_main_manual2 script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+Installing cr24_manual2_apk script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+Installing cr24_pos script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+Installing cr24_test script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+Installing cr24_wlcam script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+Installing listener script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+Installing nr25_omni script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+Installing setoshio script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+Installing setoshio_gui script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+
+Installed /home/dev/ros2_ws/build/f7_udp
+running symlink_data

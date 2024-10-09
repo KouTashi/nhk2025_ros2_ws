@@ -1,0 +1,39 @@
+[0.917s] Invoking command in '/home/dev/ros2_ws/src/f7_udp': PYTHONPATH=/home/dev/ros2_ws/build/f7_udp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/f7_udp build --build-base /home/dev/ros2_ws/build/f7_udp/build install --record /home/dev/ros2_ws/build/f7_udp/install.log --single-version-externally-managed install_data
+[1.085s] running egg_info
+[1.086s] writing ../../build/f7_udp/f7_udp.egg-info/PKG-INFO
+[1.086s] writing dependency_links to ../../build/f7_udp/f7_udp.egg-info/dependency_links.txt
+[1.086s] writing entry points to ../../build/f7_udp/f7_udp.egg-info/entry_points.txt
+[1.086s] writing requirements to ../../build/f7_udp/f7_udp.egg-info/requires.txt
+[1.087s] writing top-level names to ../../build/f7_udp/f7_udp.egg-info/top_level.txt
+[1.089s] reading manifest file '../../build/f7_udp/f7_udp.egg-info/SOURCES.txt'
+[1.089s] adding license file 'LICENSE'
+[1.090s] writing manifest file '../../build/f7_udp/f7_udp.egg-info/SOURCES.txt'
+[1.090s] running build
+[1.090s] running build_py
+[1.090s] copying f7_udp/NHK2025_Omni_Attitude_Control.py -> /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp
+[1.092s] running install
+[1.092s] running install_lib
+[1.093s] copying /home/dev/ros2_ws/build/f7_udp/build/lib/f7_udp/NHK2025_Omni_Attitude_Control.py -> /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp
+[1.094s] byte-compiling /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp/NHK2025_Omni_Attitude_Control.py to NHK2025_Omni_Attitude_Control.cpython-310.pyc
+[1.094s] running install_data
+[1.095s] running install_egg_info
+[1.096s] removing '/home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp-0.0.0-py3.10.egg-info' (and everything under it)
+[1.096s] Copying ../../build/f7_udp/f7_udp.egg-info to /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7_udp-0.0.0-py3.10.egg-info
+[1.096s] running install_scripts
+[1.112s] Installing 4_omni script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.112s] Installing cr24_gui script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.112s] Installing cr24_main script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.113s] Installing cr24_main_apk script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.113s] Installing cr24_main_manual script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.113s] Installing cr24_main_manual2 script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.113s] Installing cr24_manual2_apk script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.113s] Installing cr24_pos script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.113s] Installing cr24_test script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.113s] Installing cr24_wlcam script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.113s] Installing listener script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.113s] Installing nr25_omni script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.114s] Installing nr25_omni_imu script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.114s] Installing setoshio script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.114s] Installing setoshio_gui script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[1.114s] writing list of installed files to '/home/dev/ros2_ws/build/f7_udp/install.log'
+[1.153s] Invoked command in '/home/dev/ros2_ws/src/f7_udp' returned '0': PYTHONPATH=/home/dev/ros2_ws/build/f7_udp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/f7_udp build --build-base /home/dev/ros2_ws/build/f7_udp/build install --record /home/dev/ros2_ws/build/f7_udp/install.log --single-version-externally-managed install_data

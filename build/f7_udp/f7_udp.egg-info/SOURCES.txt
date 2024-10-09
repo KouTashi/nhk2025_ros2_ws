@@ -10,6 +10,7 @@ setup.py
 ../../build/f7_udp/f7_udp.egg-info/requires.txt
 ../../build/f7_udp/f7_udp.egg-info/top_level.txt
 ../../build/f7_udp/f7_udp.egg-info/zip-safe
+f7_udp/NHK2025_Omni_Attitude_Control.py
 f7_udp/NHK2025_Omni_Driver.py
 f7_udp/Omni_Driver.py
 f7_udp/PS4_listener.py
@@ -25,6 +26,7 @@ f7_udp/cr24_pos.py
 f7_udp/cr24_test.py
 f7_udp/cr24_yolo_wireless.py
 f7_udp/f7_eth.py
+f7_udp/imu_to_odom.py
 f7_udp/setoshio_gui_standalone.py
 f7_udp/yolo_setoshio_gui.py
 f7_udp/yolov8_setoshio_pub.py

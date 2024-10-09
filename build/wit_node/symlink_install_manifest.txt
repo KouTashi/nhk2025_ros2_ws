@@ -3,6 +3,7 @@
 /home/dev/ros2_ws/install/wit_node/share/wit_node/environment/library_path.sh
 /home/dev/ros2_ws/install/wit_node/share/wit_node/environment/library_path.dsv
 /home/dev/ros2_ws/install/wit_node/lib/libwit.so
+/home/dev/ros2_ws/install/wit_node/share/wit_node/launch/__pycache__/wit_visualize.launch.cpython-310.pyc
 /home/dev/ros2_ws/install/wit_node/share/wit_node/launch/wit.launch.py
 /home/dev/ros2_ws/install/wit_node/share/wit_node/launch/wit_visualize.launch.py
 /home/dev/ros2_ws/install/wit_node/share/wit_node/rviz2/wit.rviz

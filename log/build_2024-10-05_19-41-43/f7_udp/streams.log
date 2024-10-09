@@ -1,0 +1,32 @@
+[1.333s] Invoking command in '/home/dev/ros2_ws/build/f7_udp': PYTHONPATH=/home/dev/ros2_ws/build/f7_udp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dev/ros2_ws/build/f7_udp/build --no-deps symlink_data --force
+[1.886s] running develop
+[2.139s] running egg_info
+[2.140s] writing f7_udp.egg-info/PKG-INFO
+[2.152s] writing dependency_links to f7_udp.egg-info/dependency_links.txt
+[2.152s] writing entry points to f7_udp.egg-info/entry_points.txt
+[2.152s] writing requirements to f7_udp.egg-info/requires.txt
+[2.152s] writing top-level names to f7_udp.egg-info/top_level.txt
+[2.152s] reading manifest file 'f7_udp.egg-info/SOURCES.txt'
+[2.152s] writing manifest file 'f7_udp.egg-info/SOURCES.txt'
+[2.154s] running build_ext
+[2.155s] Creating /home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages/f7-udp.egg-link (link to .)
+[2.157s] Installing 4_omni script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[2.157s] Installing cr24_gui script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[2.158s] Installing cr24_main script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[2.158s] Installing cr24_main_apk script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[2.159s] Installing cr24_main_manual script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[2.159s] Installing cr24_main_manual2 script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[2.159s] Installing cr24_manual2_apk script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[2.160s] Installing cr24_pos script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[2.160s] Installing cr24_test script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[2.160s] Installing cr24_wlcam script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[2.161s] Installing listener script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[2.161s] Installing nr25_omni script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[2.162s] Installing setoshio script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[2.162s] Installing setoshio_gui script to /home/dev/ros2_ws/install/f7_udp/lib/f7_udp
+[2.163s] 
+[2.163s] Installed /home/dev/ros2_ws/build/f7_udp
+[2.164s] running symlink_data
+[2.164s] symbolically linking /home/dev/ros2_ws/build/f7_udp/resource/f7_udp -> /home/dev/ros2_ws/install/f7_udp/share/ament_index/resource_index/packages
+[2.164s] symbolically linking /home/dev/ros2_ws/build/f7_udp/package.xml -> /home/dev/ros2_ws/install/f7_udp/share/f7_udp
+[2.232s] Invoked command in '/home/dev/ros2_ws/build/f7_udp' returned '0': PYTHONPATH=/home/dev/ros2_ws/build/f7_udp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/ros2_ws/install/f7_udp/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dev/ros2_ws/build/f7_udp/build --no-deps symlink_data --force

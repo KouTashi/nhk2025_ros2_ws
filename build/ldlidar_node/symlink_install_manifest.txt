@@ -3,10 +3,15 @@
 /home/dev/ros2_ws/install/ldlidar_node/share/ldlidar_node/params/lifecycle_mgr.yaml
 /home/dev/ros2_ws/install/ldlidar_node/share/ldlidar_node/params/lifecycle_mgr_slam.yaml
 /home/dev/ros2_ws/install/ldlidar_node/share/ldlidar_node/params/slam_toolbox.yaml
+/home/dev/ros2_ws/install/ldlidar_node/share/ldlidar_node/params/slam_toolbox_test.yaml
 /home/dev/ros2_ws/install/ldlidar_node/share/ldlidar_node/config/ldlidar.rviz
 /home/dev/ros2_ws/install/ldlidar_node/share/ldlidar_node/config/ldlidar_slam.rviz
 /home/dev/ros2_ws/install/ldlidar_node/share/ldlidar_node/urdf/ldlidar_descr.urdf.xml
 /home/dev/ros2_ws/install/ldlidar_node/share/ldlidar_node/urdf/model/LD19.stl
+/home/dev/ros2_ws/install/ldlidar_node/share/ldlidar_node/launch/__pycache__/ld_slam_imu.launch.cpython-310.pyc
+/home/dev/ros2_ws/install/ldlidar_node/share/ldlidar_node/launch/__pycache__/ldlidar.launch.cpython-310.pyc
+/home/dev/ros2_ws/install/ldlidar_node/share/ldlidar_node/launch/__pycache__/ldlidar_rviz2.launch.cpython-310.pyc
+/home/dev/ros2_ws/install/ldlidar_node/share/ldlidar_node/launch/ld_slam_test.launch.py
 /home/dev/ros2_ws/install/ldlidar_node/share/ldlidar_node/launch/ldlidar.launch.py
 /home/dev/ros2_ws/install/ldlidar_node/share/ldlidar_node/launch/ldlidar_rviz2.launch.py
 /home/dev/ros2_ws/install/ldlidar_node/share/ldlidar_node/launch/ldlidar_slam.launch.py

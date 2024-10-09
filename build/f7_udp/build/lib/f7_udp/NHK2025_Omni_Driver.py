@@ -19,7 +19,7 @@ data = [0, 0, 0, 0, 0, 0, 0, 0, 0]  # 各モーターの回転数(RPM)
 fth = 0
 vth = 0
 r = 0
-rpm_limit = 120
+rpm_limit = 600
 sp_yaw = 0.5
 sp_omni = 1.0
 #--------------------------#
@@ -100,7 +100,7 @@ class Listener(Node):
             v3 = 0
             v4 = 0
 
-        # print(v1, v2, v3, v4)
+        print(v1, v2, v3, v4)
         data[1] = v1 * (rpm_limit + 1)
         data[2] = v2 * (rpm_limit + 1)
         data[3] = v3 * (rpm_limit + 1)

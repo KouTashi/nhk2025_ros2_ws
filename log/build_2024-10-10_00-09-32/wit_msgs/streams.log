@@ -1,0 +1,118 @@
+[0.433s] Invoking command in '/home/dev/ros2_ws/build/wit_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/build/wit_msgs -- -j12 -l12
+[0.653s] [  3%] Built target wit_msgs__cpp
+[0.654s] [ 12%] Built target wit_msgs__rosidl_generator_c
+[0.654s] [ 12%] Built target ament_cmake_python_symlink_wit_msgs
+[0.654s] [ 22%] Built target wit_msgs__rosidl_typesupport_fastrtps_c
+[0.655s] [ 32%] Built target wit_msgs__rosidl_typesupport_introspection_c
+[0.655s] [ 61%] Built target wit_msgs__rosidl_typesupport_cpp
+[0.655s] [ 61%] Built target wit_msgs__rosidl_typesupport_fastrtps_cpp
+[0.655s] [ 64%] Built target wit_msgs__rosidl_typesupport_introspection_cpp
+[0.656s] [ 70%] Built target wit_msgs__rosidl_typesupport_c
+[0.657s] [ 70%] Built target wit_msgs
+[0.658s] [ 74%] Built target wit_msgs__py
+[0.658s] [ 80%] Built target wit_msgs__rosidl_generator_py
+[0.659s] [100%] Built target wit_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.659s] [100%] Built target wit_msgs__rosidl_typesupport_c__pyext
+[0.659s] [100%] Built target wit_msgs__rosidl_typesupport_introspection_c__pyext
+[0.763s] running egg_info
+[0.768s] writing wit_msgs.egg-info/PKG-INFO
+[0.769s] writing dependency_links to wit_msgs.egg-info/dependency_links.txt
+[0.769s] writing top-level names to wit_msgs.egg-info/top_level.txt
+[0.781s] reading manifest file 'wit_msgs.egg-info/SOURCES.txt'
+[0.781s] writing manifest file 'wit_msgs.egg-info/SOURCES.txt'
+[0.787s] [100%] Built target ament_cmake_python_build_wit_msgs_egg
+[0.861s] Invoked command in '/home/dev/ros2_ws/build/wit_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/build/wit_msgs -- -j12 -l12
+[0.974s] Invoking command in '/home/dev/ros2_ws/build/wit_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble /usr/bin/cmake --install /home/dev/ros2_ws/build/wit_msgs
+[0.985s] -- Install configuration: ""
+[0.985s] -- Execute custom install script
+[0.986s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/ament_index/resource_index/rosidl_interfaces/wit_msgs
+[0.986s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/include/wit_msgs/wit_msgs/msg/detail/imu_gps_raw__functions.h
+[0.986s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/include/wit_msgs/wit_msgs/msg/detail/imu_gps_raw__struct.h
+[0.987s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/include/wit_msgs/wit_msgs/msg/detail/imu_gps_raw__type_support.h
+[0.992s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/include/wit_msgs/wit_msgs/msg/imu_gps_raw.h
+[0.992s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/include/wit_msgs/wit_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.993s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/environment/library_path.sh
+[0.994s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/environment/library_path.dsv
+[0.994s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/include/wit_msgs/wit_msgs/msg/detail/imu_gps_raw__rosidl_typesupport_fastrtps_c.h
+[0.995s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/include/wit_msgs/wit_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.995s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/include/wit_msgs/wit_msgs/msg/detail/imu_gps_raw__builder.hpp
+[0.996s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/include/wit_msgs/wit_msgs/msg/detail/imu_gps_raw__struct.hpp
+[0.996s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/include/wit_msgs/wit_msgs/msg/detail/imu_gps_raw__traits.hpp
+[0.997s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/include/wit_msgs/wit_msgs/msg/imu_gps_raw.hpp
+[0.999s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/include/wit_msgs/wit_msgs/msg/detail/imu_gps_raw__rosidl_typesupport_fastrtps_cpp.hpp
+[1.000s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/include/wit_msgs/wit_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.001s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/include/wit_msgs/wit_msgs/msg/detail/imu_gps_raw__rosidl_typesupport_introspection_c.h
+[1.001s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/include/wit_msgs/wit_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.001s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/include/wit_msgs/wit_msgs/msg/detail/imu_gps_raw__rosidl_typesupport_introspection_cpp.hpp
+[1.001s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/environment/pythonpath.sh
+[1.001s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/environment/pythonpath.dsv
+[1.001s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages/wit_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[1.001s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages/wit_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[1.001s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages/wit_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[1.001s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages/wit_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[1.001s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages/wit_msgs/__init__.py
+[1.002s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages/wit_msgs/_wit_msgs_s.ep.rosidl_typesupport_c.c
+[1.002s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages/wit_msgs/_wit_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.002s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages/wit_msgs/_wit_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.002s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages/wit_msgs/libwit_msgs__rosidl_generator_py.so
+[1.002s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages/wit_msgs/msg/__init__.py
+[1.002s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages/wit_msgs/msg/_imu_gps_raw.py
+[1.002s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages/wit_msgs/msg/_imu_gps_raw_s.c
+[1.002s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages/wit_msgs/wit_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.002s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages/wit_msgs/wit_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.002s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages/wit_msgs/wit_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.003s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages/wit_msgs/wit_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.003s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages/wit_msgs/wit_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.003s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages/wit_msgs/wit_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.003s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/msg/ImuGpsRaw.idl
+[1.007s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/msg/ImuGpsRaw.msg
+[1.007s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/ament_index/resource_index/package_run_dependencies/wit_msgs
+[1.007s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/ament_index/resource_index/parent_prefix_path/wit_msgs
+[1.008s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/environment/ament_prefix_path.sh
+[1.008s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/environment/ament_prefix_path.dsv
+[1.008s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/environment/path.sh
+[1.008s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/environment/path.dsv
+[1.008s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/local_setup.bash
+[1.008s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/local_setup.sh
+[1.008s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/local_setup.zsh
+[1.008s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/local_setup.dsv
+[1.009s] -- Symlinking: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/package.dsv
+[1.011s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/ament_index/resource_index/packages/wit_msgs
+[1.011s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/rosidl_cmake-extras.cmake
+[1.012s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.013s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.013s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.013s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.013s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.013s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.013s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/wit_msgsConfig.cmake
+[1.013s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/wit_msgsConfig-version.cmake
+[1.013s] -- Up-to-date symlink: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/package.xml
+[1.014s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/lib/libwit_msgs__rosidl_generator_c.so
+[1.014s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/lib/libwit_msgs__rosidl_typesupport_fastrtps_c.so
+[1.014s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/lib/libwit_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.014s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/lib/libwit_msgs__rosidl_typesupport_introspection_c.so
+[1.014s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/lib/libwit_msgs__rosidl_typesupport_c.so
+[1.014s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/lib/libwit_msgs__rosidl_typesupport_introspection_cpp.so
+[1.014s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/lib/libwit_msgs__rosidl_typesupport_cpp.so
+[1.063s] Listing '/home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages/wit_msgs'...
+[1.064s] Listing '/home/dev/ros2_ws/install/wit_msgs/local/lib/python3.10/dist-packages/wit_msgs/msg'...
+[1.070s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/lib/libwit_msgs__rosidl_generator_py.so
+[1.070s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/export_wit_msgs__rosidl_generator_cExport.cmake
+[1.070s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/export_wit_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.071s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/export_wit_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.071s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/export_wit_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.071s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/export_wit_msgs__rosidl_generator_cppExport.cmake
+[1.071s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/export_wit_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.072s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/export_wit_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.072s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/wit_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.074s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/wit_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.074s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/wit_msgs__rosidl_typesupport_cExport.cmake
+[1.074s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/wit_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.074s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/wit_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.074s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/wit_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.075s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/wit_msgs__rosidl_typesupport_cppExport.cmake
+[1.075s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/wit_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.075s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/export_wit_msgs__rosidl_generator_pyExport.cmake
+[1.075s] -- Up-to-date: /home/dev/ros2_ws/install/wit_msgs/share/wit_msgs/cmake/export_wit_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.083s] Invoked command in '/home/dev/ros2_ws/build/wit_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dev/ros2_ws/install/turtlebot3_teleop:/home/dev/ros2_ws/install/turtlebot3_example:/home/dev/ros2_ws/install/f7_udp:/opt/ros/humble /usr/bin/cmake --install /home/dev/ros2_ws/build/wit_msgs
